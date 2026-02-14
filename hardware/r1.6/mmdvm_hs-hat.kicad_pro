@@ -51,8 +51,111 @@
           "min_clearance": 0.254
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|211225000|122653600|00000000-0000-0000-0000-000059fcdcd5|00000000-0000-0000-0000-00005a698848",
+          ""
+        ],
+        [
+          "courtyards_overlap|213001741|131755000|00000000-0000-0000-0000-0000591c47e2|dcb7670f-5e0c-43cd-a9f0-d75861bb0c8b",
+          ""
+        ],
+        [
+          "courtyards_overlap|214225000|122653600|00000000-0000-0000-0000-000059fcdcd5|00000000-0000-0000-0000-00005a6987bf",
+          ""
+        ],
+        [
+          "duplicate_footprints|158816848|120692514|1e3381f1-14f6-43f6-a2da-52423c563bd9|7f563165-8fd6-4fe8-a739-466008fa12b6",
+          ""
+        ],
+        [
+          "duplicate_footprints|192200000|114150000|00000000-0000-0000-0000-00005adc4b55|91c22789-142c-4366-af53-e2a37f0119de",
+          ""
+        ],
+        [
+          "duplicate_footprints|214100000|131200000|dcb7670f-5e0c-43cd-a9f0-d75861bb0c8b|7f563165-8fd6-4fe8-a739-466008fa12b6",
+          ""
+        ],
+        [
+          "extra_footprint|158816848|120692514|1e3381f1-14f6-43f6-a2da-52423c563bd9|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|169600000|112900000|7f563165-8fd6-4fe8-a739-466008fa12b6|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|182727600|133451600|91c22789-142c-4366-af53-e2a37f0119de|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|192200000|114150000|00000000-0000-0000-0000-00005adc4b55|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "extra_footprint|214100000|131200000|dcb7670f-5e0c-43cd-a9f0-d75861bb0c8b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|156468358|114593688|2d68370f-1d68-4391-ae38-45836d44a275|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|156500000|125963348|8c59bbd8-4db9-47a1-9642-2e662b3828a8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|160500000|126900000|c31e5fcf-65df-4d52-849f-3e1e463d577d|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|160510414|125956231|633e230b-5041-49c1-95b9-018d411195b8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|173990000|110507121|00000000-0000-0000-0000-000000000000|94a2188f-adf5-4fe4-9451-7ae2495f360c|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|174520000|121050000|00000000-0000-0000-0000-000000000000|c478b18f-876b-421d-90b1-34901e3ee6c8|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|181300000|118220000|00000000-0000-0000-0000-000000000000|074ddae4-abb5-4d73-b60c-c43ac1475ab5|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|197750000|120837500|00000000-0000-0000-0000-000000000000|24ff9856-cb2b-49ca-ac0d-39983a99f14c|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|204162500|124250000|00000000-0000-0000-0000-000000000000|e88311cd-f76e-4055-8d67-e3103c44fd2e|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|213785000|112600000|00000000-0000-0000-0000-000000000000|b5bcd365-01e2-4352-a1b7-cd8512c3b633|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|213785000|115000000|00000000-0000-0000-0000-000000000000|cc7d7a73-3e81-4f79-9bf4-83ac7be2cf5e|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|213785000|117400000|00000000-0000-0000-0000-000000000000|8760e4b5-bd6c-4a1c-942e-c6a56b9eb1c3|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|213785000|119800000|00000000-0000-0000-0000-000000000000|4d43f673-90e6-4871-8574-e572140fe3f8|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -128,7 +231,7 @@
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.5,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
@@ -213,7 +316,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -473,7 +581,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.6,
@@ -484,14 +592,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": -1,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
         "via_diameter": 0.6,
