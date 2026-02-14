@@ -5,7 +5,7 @@ This project provides a Raspberry Pi Hat for the [MMDVM_HS Hotspot](https://gith
 
 First revisions of the board have been built successfully!
 
-![PCB](https://github.com/mathisschmieder/MMDVM_HS_Hat/blob/master/mmdvm_hs-hat.png)
+![PCB](https://github.com/sarahemm/MMDVM_HS_Hat/blob/master/mmdvm_hs-hat.png)
 
 The PCB is designed in KiCad and the necessary libraries are included. The supplied Gerber files can be used to order PCBs, for example at Elecrow or DirtyPCBs. The board's dimensions are 65x30mm.
 
@@ -49,7 +49,7 @@ A fith mode LED has been added to the board to show NXDN activity. The two pin h
 Inner RX/TX pins of Nextion connector have been swapped. External VCO inductor L6 was added. This is optional for VHF use. D-Star and DMR LEDs were swapped to flash LEDs in proper scan order :).
 
 ### Revision 1.6a - sen
-Updated for KiCad 9 footprints, as well as some silkscreen changes. Previous versions of stencils won't work well with this one due to footprint shapes changing and some slight component location nudges.
+Updated for KiCad 9 footprints, as well as some silkscreen changes. No BOM changes, so standard 1.6 BOM applies.Previous versions of stencils won't work well with this one due to footprint shapes changing and some slight component location nudges.
 
 ## BOM
 * All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=780b8eac44)
