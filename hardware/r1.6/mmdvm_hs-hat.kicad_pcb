@@ -86,8 +86,8 @@
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
-			(usegerberattributes no)
-			(usegerberadvancedattributes no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
 			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
@@ -118,7 +118,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "/opt/MMDVM_HS_Hat/gerbers/")
+			(outputdirectory "gerbers/")
 		)
 	)
 	(net 0 "")
@@ -20087,7 +20087,7 @@
 	(footprint "Symbol:KiCad-Logo2_6mm_SilkScreen"
 		(layer "B.Cu")
 		(uuid "1e3381f1-14f6-43f6-a2da-52423c563bd9")
-		(at 158.816848 120.692514 -90)
+		(at 158.461248 120.947314 -90)
 		(descr "KiCad Logo")
 		(tags "Logo KiCad")
 		(property "Reference" "REF**"
